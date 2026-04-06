@@ -36,10 +36,9 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
+    --bg: #F2F5DE;
     --code-bg: #1f2028;
-    --accent: #c084fc;
+    --accent: #93FF96;
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
@@ -57,9 +56,9 @@
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
 }
